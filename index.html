@@ -22,14 +22,20 @@
 
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+  
+  <div class="spinner">
+
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+  </div>
     
-    <div class="site-wrap">
+    <div class="site-wrap hide">
 
       <a href="#" class="offcanvas-toggle js-offcanvas-toggle">Menu</a>
       <div class="offcanvas_menu" id="offcanvas_menu">
@@ -50,21 +56,19 @@
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
-      </div>
       
-      <aside style=
+      </div>    
+<aside style="background-image: url(Screenshot_20191101-175427_WhatsApp.jpg);"></aside>
         <h1 class="mb-0">Hi, I'm Nancy Mulozi</h1>
         <div class="mb-5">
-        <p class="lead mb-3">Business Sales Specialist &amp; Developer</p>
-        <p> Zambian born and raised 
+        <p class="lead mb-3">Business Sales Specialist &amp; Aspiring Full Stack Web Developer</p>
+        <p> Zambian born and raised, i moved to Europe about four years ago to persue a career advancement.<br>
+           Iam soo big on learning new things,be it building stuff, learning a new skill etc. <br>
+          Recently i started my own blog on food: the resturants i visit, what i enjoy 
 
         </p>
         <p>
-          Iam a Mother but also a skilled individual with more than five years working experience in Account Managing roles.<br>
-           Determined and experienced in nurturing client relationships, generating revenue with new accounts and making presentations to prospects.<br> 
-          A professional with history of bringing about exceptional results in high-volume environments with demanding objectives.<br>
-          Currenly enrolled in a ICT training for Full Stack web devolpment. this will result in competencies in HTML5, CSS3, Javascript<br>
-          and UI and UX designs.
+          abrakadabra
 
         </p>
         </div>
@@ -129,6 +133,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      setTimeout(function(){
+        AOS.init();},3000);
+    </script>
 
   </body>
 </html>
